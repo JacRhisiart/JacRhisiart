@@ -37,43 +37,14 @@ h1 {letter-spacing: 6px}
 
 
 
-<h2>Search</h2>
-
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for articles.." title="Type in a articles name">
-
-<ul id="myUL">
-  <li><a href="#">Website Making</a></li>
-  <li><a href="#">Daily Blog</a></li>
-
-  <li><a href="#">Blog</a></li>
-  <li><a href="#">Requests</a></li>
-
-  <li><a href="#">Raspberry Pi</a></li>
-  <li><a href="#">Html</a></li>
-  <li><a href="#">Css</a></li>
-</ul>
-
-<script>
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        
-        }
-    }
-}
- 
-</script>
- </div>
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large"> 
