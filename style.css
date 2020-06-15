@@ -22,7 +22,7 @@ li {
     padding
 }
 .journey-image {
-    background: url(10-12.jpg) no-repeat center center fixed;
+    background: url(Mountain.jpg) no-repeat center center fixed;
     min-height: 100vh;
     background-size: cover;
     display: flex;
