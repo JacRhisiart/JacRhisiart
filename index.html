@@ -1,90 +1,112 @@
 <!DOCTYPE html>
 <html>
-<title>Jacrhisiart.tk</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-  <link href="https://jacrhisiart.tk/index1.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-      <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="assets/favicon.ico"
-    />
-
 <body>
+<link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-<!-- Header -->
-<header class="w3-panel w3-center w3-opacity" style="padding:128px 16px">
-  <style>
-body {
-  background: #0,0,0;
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <style> 
+  body { 
+   font-family: 'Alata', sans-serif;
+}
+
+h1 {
+  color: white;
   padding-top: 5em;
   display: flex;
   justify-content: center;
+  font-family: 'Alata', sans-serif;
+}
+h2{
+  color: white;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+  font-family: 'Alata', sans-serif;
+  position: relative;
+  bottom: 320px;
 }
 
-footer {]
-   font-family: 'Amatic SC', cursive;
-    }
-  
-.typewriter h1 {
-  font-family: 'Amatic SC', cursive;
-    }
-h2 {
-    font-family: 'Amatic SC', cursive;
-    }
-  
-
-  overflow: hidden; 
-  border-right: .15em 0,0,0; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
+body {
+  font-family: 'Alata', sans-serif;
 }
 
-
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
-}</style>
-  
-    <img src="https://jacrhisiart.tk/assets/apple-touch-icon.png" style="width:15%">
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-<div class="typewriter">
-  <h1>Hi my name is Jac Rhisiart.</h1>
-</div>
-<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">  
-<h2>Im 11 years old and Live in Wales! Im a Passionate Coder and i LOVE games 🎮. Im A very social person i love making new friends! If you do too you can join my discord! <a href="https://discord.gg/hRfFwRv">Jacc's Hangout!</a>
+.sidebar a:hover {
+  color: #f1f1f1;
+}
 
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+  </style>
+  <script>
+function openNav() {
+  document.getElementById("mySidebar").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+  </script>
   
-  <div class="w3-padding-32">
-    <div class="w3-bar w3-border">
-      <a href="http://jacrhisiart.tk">Home</a>
-      <a href="http://jacrhisiart.tk/Blog">Blog</a>
-      <a href="http://jacrhisiart.tk/News">News</a>
-      
-      <a href="http://jacrhisiart.tk/search">Search</a>
-    </div>
-  </div>
-</header>
- <script type="text/javascript" src="https://cookiegenerator.eu/cookie.js?link_color=000000&amp;position=bottom_right&amp;skin=cookielaw3"></script>
-    <table>  
-      
+</head>
+<body>
+<h1>Jac Rhisiart<h1>
+ <h2>Graphic Designer and Coder</h2>
 <div class="w3-row" id="myGrid" style="margin-bottom:128px">
   <div class="w3-third">
     <img src="https://assets2.razerzone.com/images/downloads-page/desktop-wallpapers/Razer_x_Trover_1920_x_1080.png" style="width:100%">
@@ -113,29 +135,19 @@ h2 {
 </div>
 
 
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <body style="background-color:black;">
+  <a href="#">About</a>
+    <a href="https://cdpn.io/jacrhisiart/debug/bGERoaY/gaAeYzLgaGXA">Blog</a>
+   <a href="https://forms.gle/QN3M14cYkZ4fgJVW6">Commisions</a>
+  <a href="#">Contact With us!</a>
+</div>
+
+<div id="main">
+  <button class="openbtn" onclick="openNav()">☰ </button>  
+
+</div>
  
-<!-- End Page Content -->
-
-
-
-
-<!-- Footer -->
- <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-large">
-<p>© JacRhisiart and Ieuan 2020-2020.</p>
-<a href="https://www.youtube.com/channel/UC0sT2wm_6i6IQZYlqoCK13g">
-<img src="https://jacrhisiart.tk/youtube.png" alt="youtube.png"style="width:5%">
-</a>
-
- <a href="mailto:jacelisrhisiart09@gmail.com"</a>  
-<img src="https://jacrhisiart.tk/email.png" alt="email.png"style="width:5%">
-</a>
-
-
-
-
 </body>
-</html>
-
-</body>
-</html>
+</html> 
